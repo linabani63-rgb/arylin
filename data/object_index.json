@@ -1,0 +1,712 @@
+{
+  "by_frame": {
+    "0": {
+      "objects": [
+        "sun",
+        "red_object",
+        "circle",
+        "rectangle",
+        "night_dark",
+        "grass_tree"
+      ],
+      "labels_fr": [
+        "soleil",
+        "objet rouge",
+        "cercle (soleil/lune)",
+        "rectangle",
+        "nuit",
+        "herbe/arbres"
+      ],
+      "details": [
+        {
+          "label": "sun",
+          "label_fr": "soleil",
+          "method": "HSV Color",
+          "confidence": 1.0
+        },
+        {
+          "label": "red_object",
+          "label_fr": "objet rouge",
+          "method": "HSV Color",
+          "confidence": 1.0
+        },
+        {
+          "label": "circle",
+          "label_fr": "cercle (soleil/lune)",
+          "method": "Hough Circles",
+          "count": 109,
+          "confidence": 0.9
+        },
+        {
+          "label": "rectangle",
+          "label_fr": "rectangle",
+          "method": "Contour Detection",
+          "count": 2,
+          "confidence": 0.56
+        },
+        {
+          "label": "night_dark",
+          "label_fr": "nuit",
+          "method": "HSV Color",
+          "confidence": 0.48
+        },
+        {
+          "label": "grass_tree",
+          "label_fr": "herbe/arbres",
+          "method": "HSV Color",
+          "confidence": 0.41
+        }
+      ]
+    },
+    "1": {
+      "objects": [
+        "sun",
+        "red_object",
+        "circle",
+        "person",
+        "night_dark",
+        "grass_tree"
+      ],
+      "labels_fr": [
+        "soleil",
+        "objet rouge",
+        "cercle (soleil/lune)",
+        "person",
+        "nuit",
+        "herbe/arbres"
+      ],
+      "details": [
+        {
+          "label": "sun",
+          "label_fr": "soleil",
+          "method": "HSV Color",
+          "confidence": 1.0
+        },
+        {
+          "label": "red_object",
+          "label_fr": "objet rouge",
+          "method": "HSV Color",
+          "confidence": 1.0
+        },
+        {
+          "label": "circle",
+          "label_fr": "cercle (soleil/lune)",
+          "method": "Hough Circles",
+          "count": 113,
+          "confidence": 0.9
+        },
+        {
+          "label": "person",
+          "method": "Haar Cascade",
+          "count": 1,
+          "confidence": 0.75
+        },
+        {
+          "label": "night_dark",
+          "label_fr": "nuit",
+          "method": "HSV Color",
+          "confidence": 0.48
+        },
+        {
+          "label": "grass_tree",
+          "label_fr": "herbe/arbres",
+          "method": "HSV Color",
+          "confidence": 0.44
+        }
+      ]
+    },
+    "2": {
+      "objects": [
+        "sun",
+        "red_object",
+        "circle",
+        "rectangle",
+        "night_dark",
+        "grass_tree"
+      ],
+      "labels_fr": [
+        "soleil",
+        "objet rouge",
+        "cercle (soleil/lune)",
+        "rectangle",
+        "nuit",
+        "herbe/arbres"
+      ],
+      "details": [
+        {
+          "label": "sun",
+          "label_fr": "soleil",
+          "method": "HSV Color",
+          "confidence": 1.0
+        },
+        {
+          "label": "red_object",
+          "label_fr": "objet rouge",
+          "method": "HSV Color",
+          "confidence": 1.0
+        },
+        {
+          "label": "circle",
+          "label_fr": "cercle (soleil/lune)",
+          "method": "Hough Circles",
+          "count": 119,
+          "confidence": 0.9
+        },
+        {
+          "label": "rectangle",
+          "label_fr": "rectangle",
+          "method": "Contour Detection",
+          "count": 4,
+          "confidence": 0.62
+        },
+        {
+          "label": "night_dark",
+          "label_fr": "nuit",
+          "method": "HSV Color",
+          "confidence": 0.48
+        },
+        {
+          "label": "grass_tree",
+          "label_fr": "herbe/arbres",
+          "method": "HSV Color",
+          "confidence": 0.42
+        }
+      ]
+    },
+    "3": {
+      "objects": [
+        "sky",
+        "sun",
+        "circle",
+        "night_dark",
+        "grass_tree"
+      ],
+      "labels_fr": [
+        "ciel",
+        "soleil",
+        "cercle (soleil/lune)",
+        "nuit",
+        "herbe/arbres"
+      ],
+      "details": [
+        {
+          "label": "sky",
+          "label_fr": "ciel",
+          "method": "HSV Color",
+          "confidence": 1.0
+        },
+        {
+          "label": "sun",
+          "label_fr": "soleil",
+          "method": "HSV Color",
+          "confidence": 1.0
+        },
+        {
+          "label": "circle",
+          "label_fr": "cercle (soleil/lune)",
+          "method": "Hough Circles",
+          "count": 39,
+          "confidence": 0.9
+        },
+        {
+          "label": "night_dark",
+          "label_fr": "nuit",
+          "method": "HSV Color",
+          "confidence": 0.38
+        },
+        {
+          "label": "grass_tree",
+          "label_fr": "herbe/arbres",
+          "method": "HSV Color",
+          "confidence": 0.35
+        }
+      ]
+    },
+    "4": {
+      "objects": [
+        "sky",
+        "sun",
+        "circle",
+        "rectangle",
+        "night_dark"
+      ],
+      "labels_fr": [
+        "ciel",
+        "soleil",
+        "cercle (soleil/lune)",
+        "rectangle",
+        "nuit"
+      ],
+      "details": [
+        {
+          "label": "sky",
+          "label_fr": "ciel",
+          "method": "HSV Color",
+          "confidence": 1.0
+        },
+        {
+          "label": "sun",
+          "label_fr": "soleil",
+          "method": "HSV Color",
+          "confidence": 1.0
+        },
+        {
+          "label": "circle",
+          "label_fr": "cercle (soleil/lune)",
+          "method": "Hough Circles",
+          "count": 37,
+          "confidence": 0.9
+        },
+        {
+          "label": "rectangle",
+          "label_fr": "rectangle",
+          "method": "Contour Detection",
+          "count": 3,
+          "confidence": 0.59
+        },
+        {
+          "label": "night_dark",
+          "label_fr": "nuit",
+          "method": "HSV Color",
+          "confidence": 0.38
+        }
+      ]
+    },
+    "5": {
+      "objects": [
+        "sky",
+        "sun",
+        "circle",
+        "grass_tree",
+        "night_dark"
+      ],
+      "labels_fr": [
+        "ciel",
+        "soleil",
+        "cercle (soleil/lune)",
+        "herbe/arbres",
+        "nuit"
+      ],
+      "details": [
+        {
+          "label": "sky",
+          "label_fr": "ciel",
+          "method": "HSV Color",
+          "confidence": 1.0
+        },
+        {
+          "label": "sun",
+          "label_fr": "soleil",
+          "method": "HSV Color",
+          "confidence": 1.0
+        },
+        {
+          "label": "circle",
+          "label_fr": "cercle (soleil/lune)",
+          "method": "Hough Circles",
+          "count": 33,
+          "confidence": 0.9
+        },
+        {
+          "label": "grass_tree",
+          "label_fr": "herbe/arbres",
+          "method": "HSV Color",
+          "confidence": 0.37
+        },
+        {
+          "label": "night_dark",
+          "label_fr": "nuit",
+          "method": "HSV Color",
+          "confidence": 0.36
+        }
+      ]
+    },
+    "6": {
+      "objects": [
+        "sky",
+        "sun",
+        "circle",
+        "grass_tree",
+        "night_dark"
+      ],
+      "labels_fr": [
+        "ciel",
+        "soleil",
+        "cercle (soleil/lune)",
+        "herbe/arbres",
+        "nuit"
+      ],
+      "details": [
+        {
+          "label": "sky",
+          "label_fr": "ciel",
+          "method": "HSV Color",
+          "confidence": 1.0
+        },
+        {
+          "label": "sun",
+          "label_fr": "soleil",
+          "method": "HSV Color",
+          "confidence": 1.0
+        },
+        {
+          "label": "circle",
+          "label_fr": "cercle (soleil/lune)",
+          "method": "Hough Circles",
+          "count": 30,
+          "confidence": 0.9
+        },
+        {
+          "label": "grass_tree",
+          "label_fr": "herbe/arbres",
+          "method": "HSV Color",
+          "confidence": 0.36
+        },
+        {
+          "label": "night_dark",
+          "label_fr": "nuit",
+          "method": "HSV Color",
+          "confidence": 0.34
+        }
+      ]
+    },
+    "7": {
+      "objects": [
+        "sky",
+        "sun",
+        "circle",
+        "rectangle",
+        "grass_tree"
+      ],
+      "labels_fr": [
+        "ciel",
+        "soleil",
+        "cercle (soleil/lune)",
+        "rectangle",
+        "herbe/arbres"
+      ],
+      "details": [
+        {
+          "label": "sky",
+          "label_fr": "ciel",
+          "method": "HSV Color",
+          "confidence": 1.0
+        },
+        {
+          "label": "sun",
+          "label_fr": "soleil",
+          "method": "HSV Color",
+          "confidence": 1.0
+        },
+        {
+          "label": "circle",
+          "label_fr": "cercle (soleil/lune)",
+          "method": "Hough Circles",
+          "count": 32,
+          "confidence": 0.9
+        },
+        {
+          "label": "rectangle",
+          "label_fr": "rectangle",
+          "method": "Contour Detection",
+          "count": 3,
+          "confidence": 0.59
+        },
+        {
+          "label": "grass_tree",
+          "label_fr": "herbe/arbres",
+          "method": "HSV Color",
+          "confidence": 0.4
+        }
+      ]
+    },
+    "8": {
+      "objects": [
+        "sky",
+        "sun",
+        "circle",
+        "grass_tree"
+      ],
+      "labels_fr": [
+        "ciel",
+        "soleil",
+        "cercle (soleil/lune)",
+        "herbe/arbres"
+      ],
+      "details": [
+        {
+          "label": "sky",
+          "label_fr": "ciel",
+          "method": "HSV Color",
+          "confidence": 1.0
+        },
+        {
+          "label": "sun",
+          "label_fr": "soleil",
+          "method": "HSV Color",
+          "confidence": 1.0
+        },
+        {
+          "label": "circle",
+          "label_fr": "cercle (soleil/lune)",
+          "method": "Hough Circles",
+          "count": 25,
+          "confidence": 0.9
+        },
+        {
+          "label": "grass_tree",
+          "label_fr": "herbe/arbres",
+          "method": "HSV Color",
+          "confidence": 0.45
+        }
+      ]
+    },
+    "9": {
+      "objects": [
+        "sky",
+        "sun",
+        "circle",
+        "grass_tree"
+      ],
+      "labels_fr": [
+        "ciel",
+        "soleil",
+        "cercle (soleil/lune)",
+        "herbe/arbres"
+      ],
+      "details": [
+        {
+          "label": "sky",
+          "label_fr": "ciel",
+          "method": "HSV Color",
+          "confidence": 1.0
+        },
+        {
+          "label": "sun",
+          "label_fr": "soleil",
+          "method": "HSV Color",
+          "confidence": 1.0
+        },
+        {
+          "label": "circle",
+          "label_fr": "cercle (soleil/lune)",
+          "method": "Hough Circles",
+          "count": 46,
+          "confidence": 0.9
+        },
+        {
+          "label": "grass_tree",
+          "label_fr": "herbe/arbres",
+          "method": "HSV Color",
+          "confidence": 0.36
+        }
+      ]
+    },
+    "10": {
+      "objects": [
+        "sun",
+        "fire_flame",
+        "red_object",
+        "circle",
+        "grass_tree",
+        "sky"
+      ],
+      "labels_fr": [
+        "soleil",
+        "feu/flamme",
+        "objet rouge",
+        "cercle (soleil/lune)",
+        "herbe/arbres",
+        "ciel"
+      ],
+      "details": [
+        {
+          "label": "sun",
+          "label_fr": "soleil",
+          "method": "HSV Color",
+          "confidence": 1.0
+        },
+        {
+          "label": "fire_flame",
+          "label_fr": "feu/flamme",
+          "method": "HSV Color",
+          "confidence": 1.0
+        },
+        {
+          "label": "red_object",
+          "label_fr": "objet rouge",
+          "method": "HSV Color",
+          "confidence": 1.0
+        },
+        {
+          "label": "circle",
+          "label_fr": "cercle (soleil/lune)",
+          "method": "Hough Circles",
+          "count": 96,
+          "confidence": 0.9
+        },
+        {
+          "label": "grass_tree",
+          "label_fr": "herbe/arbres",
+          "method": "HSV Color",
+          "confidence": 0.8
+        },
+        {
+          "label": "sky",
+          "label_fr": "ciel",
+          "method": "HSV Color",
+          "confidence": 0.36
+        }
+      ]
+    },
+    "11": {
+      "objects": [
+        "sun",
+        "fire_flame",
+        "red_object",
+        "circle",
+        "grass_tree",
+        "person",
+        "sky"
+      ],
+      "labels_fr": [
+        "soleil",
+        "feu/flamme",
+        "objet rouge",
+        "cercle (soleil/lune)",
+        "herbe/arbres",
+        "person",
+        "ciel"
+      ],
+      "details": [
+        {
+          "label": "sun",
+          "label_fr": "soleil",
+          "method": "HSV Color",
+          "confidence": 1.0
+        },
+        {
+          "label": "fire_flame",
+          "label_fr": "feu/flamme",
+          "method": "HSV Color",
+          "confidence": 1.0
+        },
+        {
+          "label": "red_object",
+          "label_fr": "objet rouge",
+          "method": "HSV Color",
+          "confidence": 1.0
+        },
+        {
+          "label": "circle",
+          "label_fr": "cercle (soleil/lune)",
+          "method": "Hough Circles",
+          "count": 89,
+          "confidence": 0.9
+        },
+        {
+          "label": "grass_tree",
+          "label_fr": "herbe/arbres",
+          "method": "HSV Color",
+          "confidence": 0.78
+        },
+        {
+          "label": "person",
+          "method": "Haar Cascade",
+          "count": 1,
+          "confidence": 0.75
+        },
+        {
+          "label": "sky",
+          "label_fr": "ciel",
+          "method": "HSV Color",
+          "confidence": 0.52
+        }
+      ]
+    }
+  },
+  "by_object": {
+    "sun": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "red_object": [
+      0,
+      1,
+      2,
+      10,
+      11
+    ],
+    "circle": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "rectangle": [
+      0,
+      2,
+      4,
+      7
+    ],
+    "night_dark": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "grass_tree": [
+      0,
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "person": [
+      1,
+      11
+    ],
+    "sky": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "fire_flame": [
+      10,
+      11
+    ]
+  }
+}

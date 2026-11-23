@@ -1,0 +1,28 @@
+# ─────────────────────────────────────────────────
+#  ARYLIN — Dépendances Python
+#  Installation : pip install -r requirements.txt
+# ─────────────────────────────────────────────────
+
+# Serveur web
+flask>=3.0.0
+
+# Traitement vidéo / image
+opencv-python>=4.8.0
+moviepy>=2.0.0
+
+# Traitement audio / transcription
+SpeechRecognition>=3.10.0
+
+# Calcul numérique
+numpy>=1.24.0
+
+# Visualisation (histogrammes)
+matplotlib>=3.7.0
+
+# Traitement du langage naturel (NLP)
+nltk>=3.8.0
+
+# ─────────────────────────────────────────────────
+# Installation rapide :
+#   pip install flask opencv-python moviepy SpeechRecognition numpy matplotlib nltk
+# ─────────────────────────────────────────────────
